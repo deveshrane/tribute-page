@@ -1,0 +1,41 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#main {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5em;
+}
+h1[id="title"] {
+    font-size: 1.8em;
+}
+#img-div {
+    background-color: #FFFFFF;
+    padding: 2em;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 5px solid rgb(124, 124, 124);
+    border-radius: 5px;
+}
+#img-caption {
+    padding: 1em 1em 0em 1em;
+    text-align: center;
+}
+#tribute-info {
+    padding: 2em;
+    font-size: 1.4em;
+    text-align: justify;
+    line-height: 1.3em;
+}
+footer {
+    padding: 0px 7.5em 0px 7.5em;
+    background-color: rgb(180, 180, 180);
+}
